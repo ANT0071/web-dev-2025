@@ -1,0 +1,32 @@
+/*
+ === MENU ==
+ */
+  
+
+ #menu {
+    text-align: center;
+    margin: 25px auto;
+  
+  }
+  #menu li {
+    display: inline-block;
+    padding: 5px;
+  }
+
+  #menu li a {
+    display: inline-block;
+    width: 80px;
+    padding: 8px 5px;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 3px;
+    color:black;
+    border: 2px solid black;
+    transition:all 0.3s ease-in-out;
+  }
+
+  #menu li a:hover {
+    background-color: black;
+    color:rgb(240, 214, 187); 
+  }
