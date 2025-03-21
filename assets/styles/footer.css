@@ -12,7 +12,23 @@
     text-decoration: none;
 
   }
+  #social-links i {
+    font-size: 35px;
+    transition: all 0.3s 
+  }
+  #social-links i:hover {
+    transform: scale(1.15); 
+  }
+  .fa-linkedin {
+    color:#0a66c2;
+  }
+  .fa-github-square {
+    color:  #333;
+  }
+  .fa-twitter-square {
+    color:#1DA1F2;
 
+  }
   #social-links a:hover {
     /* background-color: black; */
     color:white;

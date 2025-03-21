@@ -5,9 +5,108 @@
 @import 'footer.css';
 @import 'icons.css';
 
+table {
+    width: 100%;
+}
+.table-heading {
+    background-color: black;
+    color:white;
+}
+td {
+    text-align: center;
+}
+
+table, tr, th, td {
+    border: 2px solid rgb(181, 185, 181);
+    border-collapse: collapse;
+}
+
+tr:not(.table-heading):hover{
+    background-color: antiquewhite;
+}
 
 
+video {
+    width: 100%;
+}
 
+.logo-wrapper {
+    text-align: center;
+}
 
-  
+.tech-logo {
+    width: 25%;
+    text-align: center;
+}
+
+.ocean {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    margin: 30px auto;
+    background-color: lightskyblue;
+
+}
+
+.ship {
+    width: 150px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-size:48px;
+    font-weight: bolder;
+    position: absolute;
+}
+
+.ship-1 {
+    background-color: blue;
+   
+}
+
+.ship-2 {
+   /* left: 100px;
+   top: 20px;
+   z-index: 1; */
+   background-color: green;
+   bottom:0;
  
+}
+.ship-3 {
+    /* left: 200px;
+   top: 40px;
+   z-index: 0; */
+   background-color: brown;
+   right:0;
+   bottom:0;
+   
+   
+}
+.ship-4 {
+    /* left: 300px;
+   top: 60px; */
+   background-color: yellow;
+   right: 0;
+   
+}
+  
+
+ .box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid green;
+  background-color: green;
+ }
+
+ .circle {
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 50%;
+   }
+   .eliptical {
+    width:150px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid red;
+   }
